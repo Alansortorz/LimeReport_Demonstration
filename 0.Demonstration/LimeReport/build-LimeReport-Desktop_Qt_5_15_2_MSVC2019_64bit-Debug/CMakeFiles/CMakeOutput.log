@@ -1,0 +1,34 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Software/Visual Studio/VS_Community/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX64/x64/cl.exe 
+Build flags: -DQT_QML_DEBUG
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.39.33523.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Software/EmbededTools/Ninja/ninja.exe cmTC_c314c && [1/2] Building CXX object CMakeFiles\cmTC_c314c.dir\CMakeCXXCompilerABI.cpp.obj
+注意: 包含文件:  D:\Software\QtDesignerStudio\Tools\CMake_64\share\cmake-3.24\Modules\CMakeCompilerABI.h
+[2/2] Linking CXX executable cmTC_c314c.exe
+
+
+

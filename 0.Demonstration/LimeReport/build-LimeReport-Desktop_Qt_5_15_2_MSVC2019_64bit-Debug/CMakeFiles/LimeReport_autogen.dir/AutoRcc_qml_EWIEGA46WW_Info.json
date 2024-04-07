@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/LimeReport_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/LimeReport",
+	"CMAKE_SOURCE_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/LimeReport",
+	"INCLUDE_DIR" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/LimeReport_autogen/include",
+	"INPUTS" : 
+	[
+		"E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/LimeReport/main.qml"
+	],
+	"LOCK_FILE" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/LimeReport_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "D:/Software/QtDesignerStudio/5.15.2/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug/CMakeFiles/LimeReport_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/LimeReport/qml.qrc",
+	"VERBOSITY" : 0
+}

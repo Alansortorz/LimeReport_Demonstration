@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b1b43dd387bd6fd6c0ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LimeReport",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LimeReport::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LimeReport-Debug-28278eb04bda76b685ef.json",
+					"name" : "LimeReport",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LimeReport_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LimeReport_autogen-Debug-4eac64762f4fdc625c84.json",
+					"name" : "LimeReport_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LimeReport_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LimeReport_autogen_timestamp_deps-Debug-24be809e2266c53df5dc.json",
+					"name" : "LimeReport_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/build-LimeReport-Desktop_Qt_5_15_2_MSVC2019_64bit-Debug",
+		"source" : "E:/Other/Workspace/LimeReport/LimeReport_Demonstration/0.Demonstration/LimeReport/LimeReport"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
