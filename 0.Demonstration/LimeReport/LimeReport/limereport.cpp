@@ -14,3 +14,10 @@ void LmReport::LoadDesignReport()
 {
     m_report->designReport();
 }
+
+void LmReport::PreviewReport()
+{
+    m_report->previewReport();
+}
+
+

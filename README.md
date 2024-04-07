@@ -165,6 +165,22 @@ QGuiApplication app(argc, argv); --> QApplication app(argc, argv);
 
 
 
+## 3  重要功能实现
+
+
+
+
+
+### 3.1  文件预览
+
+模板文件：.lrxml
+
+数据文件：.lrd
+
+
+
+
+
 
 
 

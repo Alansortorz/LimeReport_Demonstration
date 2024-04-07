@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
     LmReport lreport;
     lreport.LoadDesignReport();
-
+    lreport.PreviewReport();
 
     return app.exec();
 }

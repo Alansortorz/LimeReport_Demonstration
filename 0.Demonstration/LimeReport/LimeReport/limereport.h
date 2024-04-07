@@ -12,6 +12,7 @@ public:
     ~LmReport();
 
     void LoadDesignReport();
+    void PreviewReport();
 
 private:
     LimeReport::ReportEngine *m_report;
