@@ -248,6 +248,35 @@ lreport.designReport();
 
 报表设计功能
 
+关于报表设计主要包含以下内容：
+
+- Toolbars
+- Report Elements Bar
+- Object Browser
+- Data Browser
+- Report Page
+- Report Structure Browser
+
+快捷键：
+
+| 序号 |      快捷键      |   描述   |
+| :--: | :--------------: | :------: |
+|  1   |     Ctrl + N     | 新建报表 |
+|  2   |     Ctrl + O     | 加载报表 |
+|  3   |     Ctrl + S     | 保存报表 |
+|  4   | Ctrl + Shift + S |  另存为  |
+|  5   |                  |          |
+|  6   |                  |          |
+|  7   |                  |          |
+|  8   |                  |          |
+|  9   |                  |          |
+
+
+
+
+
+
+
 
 
 报表预览功能
