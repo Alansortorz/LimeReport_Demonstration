@@ -153,7 +153,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-- 在主函数中将`QGuiApplication`更改为`QApplication`
+- 【注意】在主函数中将`QGuiApplication`更改为`QApplication`，否则报错！！！
 
 ```c++
 QGuiApplication app(argc, argv); --> QApplication app(argc, argv);
@@ -161,9 +161,88 @@ QGuiApplication app(argc, argv); --> QApplication app(argc, argv);
 
 ## 2 功能测试
 
+在项目中新增两个文件，一个源文件`limereport.cpp`和头文件`limereport.h`，文件内容如下：
+
+```c++
+#ifndef LIMEREPORT_H
+#define LIMEREPORT_H
+
+#include <QDebug>
+#include <QWidget>
+#include <QFileInfo>
+#include <QGestureEvent>
+#include <QPinchGesture>
+#include "lib/include/lrreportengine.h"
+#include "lib/include/lrcallbackdatasourceintf.h"
+
+class limereport : public QObject
+{
+    Q_OBJECT
+
+public:
+    limereport(QWidget* parent = nullptr); // 修改默认参数为nullptr
+    virtual ~limereport();
+
+public slots:
+    void designReport();        //设计报表
+    void previewReport();       //预览报表
+
+private:
+    LimeReport::ReportEngine *m_report;
+    LimeReport::PreviewReportWidget *m_preview;
+};
+
+#endif
 
 
+```
 
+头文件内容如下：
+
+```c++
+#include "limereport.h"
+
+limereport::limereport(QWidget* parent) // 使用初始化列表初始化 m_report
+{
+    m_report = new LimeReport::ReportEngine(this);
+    m_preview = m_report->createPreviewWidget();
+
+    // 配置模板文件数据
+    QFileInfo fileInfo("E:/Other/Workspace/3DPrint/MetalForgeX/MILReportView/MIL_ReportViewer_Qt5/MIL_ReportView/ReportViewCtrl/Report/lrxml/WorkData.lrxml");
+    if(fileInfo.isFile())
+    {
+        m_report->loadFromFile("E:/Other/Workspace/3DPrint/MetalForgeX/MILReportView/MIL_ReportViewer_Qt5/MIL_ReportView/ReportViewCtrl/Report/lrxml/WorkData.lrxml");
+        m_preview->refreshPages();
+    }
+    m_preview->setScalePercent(50);
+}
+
+limereport::~limereport()
+{
+    delete m_report;
+}
+
+void limereport::designReport()
+{
+    m_report->designReport();
+}
+
+void limereport::previewReport()
+{
+    m_preview->show();
+}
+```
+
+在主函数中调用
+
+```c++
+limereport lreport;
+lreport.designReport();
+```
+
+如果没有文件，将会看到以下界面：
+
+![Limereport设计报表界面](2.Images/Limereport%E8%AE%BE%E8%AE%A1%E6%8A%A5%E8%A1%A8%E7%95%8C%E9%9D%A2.jpg)
 
 ## 3  重要功能实现
 
