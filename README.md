@@ -246,6 +246,16 @@ lreport.designReport();
 
 ## 3  重要功能实现
 
+报表设计功能
+
+
+
+报表预览功能
+
+
+
+报表自动生成
+
 
 
 
@@ -253,6 +263,8 @@ lreport.designReport();
 ### 3.1  文件预览
 
 模板文件：.lrxml
+
+
 
 数据文件：.lrd
 
@@ -265,6 +277,8 @@ lreport.designReport();
 ### 3.3  数据加载
 
 
+
+从`Sqlite`读取数据
 
 
 
