@@ -246,34 +246,48 @@ lreport.designReport();
 
 ## 3  重要功能实现
 
-报表设计功能
+### 3.1  报表设计功能
+
+#### 3.1.1  报表组成
 
 关于报表设计主要包含以下内容：
 
-- Toolbars
-- Report Elements Bar
-- Object Browser
-- Data Browser
-- Report Page
-- Report Structure Browser
+- Toolbars 工具栏
+- Report Elements Bar 报表元素栏
+- Object Browser 对象浏览
+- Data Browser 数据浏览
+- Report Page 报表页面
+- Report Structure Browser 报表结构浏览
 
-快捷键：
+报表设计中常用的快捷键：
 
-| 序号 |      快捷键      |   描述   |
-| :--: | :--------------: | :------: |
-|  1   |     Ctrl + N     | 新建报表 |
-|  2   |     Ctrl + O     | 加载报表 |
-|  3   |     Ctrl + S     | 保存报表 |
-|  4   | Ctrl + Shift + S |  另存为  |
-|  5   |                  |          |
-|  6   |                  |          |
-|  7   |                  |          |
-|  8   |                  |          |
-|  9   |                  |          |
+| 序号 |          快捷键           |        描述        |
+| :--: | :-----------------------: | :----------------: |
+|  1   |         Ctrl + N          |      新建报表      |
+|  2   |         Ctrl + O          |      加载报表      |
+|  3   |         Ctrl + S          |      保存报表      |
+|  4   |     Ctrl + Shift + S      |       另存为       |
+|  5   |         Ctrl + P          |      预览报告      |
+|  6   |         Ctrl + Z          |        回退        |
+|  7   |     Ctrl + Shift + Z      |        恢复        |
+|  8   |         Ctrl + C          |        复制        |
+|  9   |         Ctrl + X          |        剪切        |
+|  10  |         Ctrl + V          |        粘贴        |
+|  11  |       Ctrl + Arrows       |   移动选择的对象   |
+|  12  |      Shift + Arrows       | 修改选择对象的大小 |
+|  13  |            Del            |   删除选择的对象   |
+|  14  | Shift + Left mouse button |    创建选择区域    |
 
+#### 3.1.2 数据源
 
+`LimeReport`提供这么几种数据源
 
-
+- 变量，
+- 使用数据库连接的基于 SQL 的数据集。可以通过以下方式建立数据库连接：
+  - 可以立即从报告生成器建立连接。
+  - 可以通过外部应用程序建立连接。
+- 程序中创建一个类并让它继承自 QAbstractItemModel，然后实现这个类的各种方法和功能，从而使外部的数据集可以在 Qt 应用程序中使用。
+- 使用信号-槽（Signal-Slot）方法进行数据传输和与报告生成器的链接。
 
 
 
