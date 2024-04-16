@@ -301,6 +301,8 @@ lreport.designReport();
 
 
 
+设置背景颜色
+
 
 
 ### 3.1  文件预览
