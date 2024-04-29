@@ -289,7 +289,7 @@ lreport.designReport();
 - 程序中创建一个类并让它继承自 QAbstractItemModel，然后实现这个类的各种方法和功能，从而使外部的数据集可以在 Qt 应用程序中使用。
 - 使用信号-槽（Signal-Slot）方法进行数据传输和与报告生成器的链接。
 
-
+Sqlite
 
 
 
