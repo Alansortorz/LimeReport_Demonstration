@@ -1,4 +1,16 @@
-# **`LimeReport_Demonstration`**
+<div align=center>
+  <img width=64 src="2.Images/logo.ico">
+</div>
+
+<h1 align="center">
+  LimeReport_Demonstration
+</h1>
+<p align="center">
+   A Tool based Software System for Generating Device Data Reports Demonstration!
+</p>
+
+# **`LimeReport_DemonstratiDemonstrationon`**
+
 这是我自己用于学习和复现报表生成软件项目`LimeReport`的一个示例项目，本项目会将原`LimeReport`项目`QMake`构建系统替换成`CMake`构建系统，并使用`LimeReport`编译的库，调用库的函数现实各类函数的调用和调试。
 
 原项目导航：`https://github.com/fralx/LimeReport`
